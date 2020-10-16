@@ -2064,8 +2064,8 @@ input, select, textarea {
 			position: relative;
 			top: 0;
 			left: 0;
-			width: 80%;
-			height: 100%;
+			width: 200px;
+			height: 150px;
 		}
 
 		.image[data-position="top left"] img {
