@@ -3166,12 +3166,12 @@ input, select, textarea {
 				display: block;
 				margin: 0 0 1.25em 0;
 				padding-right: 0;
-				width: 50%;
+				width: 100%;
 			}
 
 			.features article .inner {
 				display: block;
-				width: 50%;
+				width: 100%;
 			}
 
 		/* Header */
@@ -3258,7 +3258,7 @@ input, select, textarea {
 		/* Basic */
 
 			html, body {
-				min-width: 320px;
+				min-width: 30px;
 			}
 
 			body, input, select, textarea {
