@@ -3135,15 +3135,15 @@ input, select, textarea {
 		/* Image */
 
 			.image.left {
-				margin: 0 1.5em 1em 0;
+				margin: 0 1em 0.5em 0;
 			}
 
 			.image.right {
-				margin: 0 0 1em 1.5em;
+				margin: 0 0 0.5em 1em;
 			}
 
 			.image.main {
-				height: 12em;
+				height: 5em;
 			}
 
 		/* Section/Article */
@@ -3164,14 +3164,14 @@ input, select, textarea {
 
 			.features article .image {
 				display: block;
-				margin: 0 0 2.25em 0;
+				margin: 0 0 1.25em 0;
 				padding-right: 0;
-				width: 100%;
+				width: 50%;
 			}
 
 			.features article .inner {
 				display: block;
-				width: 100%;
+				width: 50%;
 			}
 
 		/* Header */
