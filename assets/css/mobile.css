@@ -2185,7 +2185,9 @@ input, select, textarea {
 
 			.image.fit img {
 				display: block;
-				width: 50%;
+					
+				max-width: 100%;
+				height: auto;
 			}
 
 		.image.avatar {
@@ -2276,6 +2278,8 @@ input, select, textarea {
 			-ms-justify-content: center;
 			justify-content: center;
 			width: 100%;
+			max-width: 100%;
+			height: auto;
 			margin-left: 0;
 		}
 
@@ -2313,14 +2317,20 @@ input, select, textarea {
 				-ms-flex-shrink: 1;
 				flex-shrink: 1;
 				width: 100%;
+				max-width: 100%;
+				height: auto;
 			}
 
 				ul.actions.fit li > * {
 					width: 100%;
+					max-width: 100%;
+				    height: auto;
 				}
 
 			ul.actions.fit.stacked {
 				width: 100%;
+				max-width: 100%;
+				height: auto;
 			}
 
 		@media screen and (max-width: 480px) {
@@ -2332,6 +2342,8 @@ input, select, textarea {
 				flex-direction: column;
 				margin-left: 0;
 				width: 100% !important;
+				max-width: 100%;
+				height: auto;
 			}
 
 				ul.actions:not(.fixed) li {
@@ -2346,10 +2358,14 @@ input, select, textarea {
 					padding: 1.125em 0 0 0;
 					text-align: center;
 					width: 100%;
+					max-width: 100%;
+					height: auto;
 				}
 
 					ul.actions:not(.fixed) li > * {
 						width: 100%;
+						max-width: 100%;
+						height: auto;
 					}
 
 					ul.actions:not(.fixed) li:first-child {
@@ -2362,6 +2378,8 @@ input, select, textarea {
 					ul.actions:not(.fixed) li button,
 					ul.actions:not(.fixed) li .button {
 						width: 100%;
+						max-width: 100%;
+						height: auto;
 					}
 
 						ul.actions:not(.fixed) li input[type="submit"].icon:before,
