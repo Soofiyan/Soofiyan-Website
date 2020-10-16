@@ -21,7 +21,7 @@ section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 50%;
+	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;}
 
@@ -1852,7 +1852,7 @@ input, select, textarea {
 		}
 
 	select {
-		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23e4e4e4' /%3E%3C/svg%3E");
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23e4e4e4' /%3E%3C/svg%3E");
 		background-size: 1.25em;
 		background-repeat: no-repeat;
 		background-position: calc(100% - 1em) center;
@@ -2065,8 +2065,7 @@ input, select, textarea {
 			top: 0;
 			left: 0;
 			width: 100%;
-			max-width: 100%;
-			height: auto;
+			height: 100%;
 		}
 
 		.image[data-position="top left"] img {
@@ -2167,27 +2166,25 @@ input, select, textarea {
 
 		.image.left {
 			float: left;
-			margin: 0 1.5em 1em 0;
+			margin: 0 2.5em 2em 0;
 			top: 0.25em;
 		}
 
 		.image.right {
 			float: right;
-			margin: 0 0 1em 1.5em;
+			margin: 0 0 2em 2.5em;
 			top: 0.25em;
 		}
 
 		.image.fit {
 			display: block;
-			margin: 0 0 1.25em 0;
+			margin: 0 0 2.25em 0;
 			width: 100%;
 		}
 
 			.image.fit img {
 				display: block;
-					
-				max-width: 100%;
-				height: auto;
+				width: 100%;
 			}
 
 		.image.avatar {
@@ -2198,9 +2195,7 @@ input, select, textarea {
 			.image.avatar img {
 				border-radius: 100%;
 				display: block;
-					
-				max-width: 100%;
-				height: auto;
+				width: 100%;
 			}
 
 		.image.main {
@@ -2278,8 +2273,6 @@ input, select, textarea {
 			-ms-justify-content: center;
 			justify-content: center;
 			width: 100%;
-			max-width: 100%;
-			height: auto;
 			margin-left: 0;
 		}
 
@@ -2317,20 +2310,14 @@ input, select, textarea {
 				-ms-flex-shrink: 1;
 				flex-shrink: 1;
 				width: 100%;
-				max-width: 100%;
-				height: auto;
 			}
 
 				ul.actions.fit li > * {
 					width: 100%;
-					max-width: 100%;
-				    height: auto;
 				}
 
 			ul.actions.fit.stacked {
 				width: 100%;
-				max-width: 100%;
-				height: auto;
 			}
 
 		@media screen and (max-width: 480px) {
@@ -2342,8 +2329,6 @@ input, select, textarea {
 				flex-direction: column;
 				margin-left: 0;
 				width: 100% !important;
-				max-width: 100%;
-				height: auto;
 			}
 
 				ul.actions:not(.fixed) li {
@@ -2358,14 +2343,10 @@ input, select, textarea {
 					padding: 1.125em 0 0 0;
 					text-align: center;
 					width: 100%;
-					max-width: 100%;
-					height: auto;
 				}
 
 					ul.actions:not(.fixed) li > * {
 						width: 100%;
-						max-width: 100%;
-						height: auto;
 					}
 
 					ul.actions:not(.fixed) li:first-child {
@@ -2378,8 +2359,6 @@ input, select, textarea {
 					ul.actions:not(.fixed) li button,
 					ul.actions:not(.fixed) li .button {
 						width: 100%;
-						max-width: 100%;
-						height: auto;
 					}
 
 						ul.actions:not(.fixed) li input[type="submit"].icon:before,
@@ -3129,12 +3108,12 @@ input, select, textarea {
 
 /* Small */
 
-	@media screen and (max-width: 356px) {
+	@media screen and (max-width: 736px) {
 
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 6pt;
+				font-size: 12pt;
 			}
 
 			h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
@@ -3156,15 +3135,15 @@ input, select, textarea {
 		/* Image */
 
 			.image.left {
-				margin: 0 1em 0.5em 0;
+				margin: 0 1.5em 1em 0;
 			}
 
 			.image.right {
-				margin: 0 0 0.5em 1em;
+				margin: 0 0 1em 1.5em;
 			}
 
 			.image.main {
-				height: 5em;
+				height: 12em;
 			}
 
 		/* Section/Article */
@@ -3185,7 +3164,7 @@ input, select, textarea {
 
 			.features article .image {
 				display: block;
-				margin: 0 0 1.25em 0;
+				margin: 0 0 2.25em 0;
 				padding-right: 0;
 				width: 100%;
 			}
@@ -3279,7 +3258,7 @@ input, select, textarea {
 		/* Basic */
 
 			html, body {
-				min-width: 30px;
+				min-width: 320px;
 			}
 
 			body, input, select, textarea {
