@@ -3108,12 +3108,12 @@ input, select, textarea {
 
 /* Small */
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 356px) {
 
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 6pt;
 			}
 
 			h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
