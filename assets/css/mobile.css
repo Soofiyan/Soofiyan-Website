@@ -2061,11 +2061,11 @@ input, select, textarea {
 			-ms-object-fit: cover;
 			object-fit: cover;
 			display: block;
-			position: relative;
+			position: absolute;
 			top: 0;
 			left: 0;
-			width: 80%;
-			height: 80%;
+			width: 60%;
+			height: 60%;
 		}
 
 		.image[data-position="top left"] img {
